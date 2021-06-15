@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SuiviCaisse.qml</file>
+        <file>InitDayMonitoring.qml</file>
+        <file>ProductInFactory.qml</file>
+        <file>images/prodinligne.png</file>
+        <file>images/postetravail.png</file>
+        <file>images/poids1.png</file>
+        <file>images/plusieurs_main_douvre_direct.png</file>
+        <file>images/palette.png</file>
+        <file>images/livraison.png</file>
+        <file>images/carton.png</file>
+        <file>images/article.png</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>font/fontawesome-webfont.ttf</file>
+        <file>font/ionicons.ttf</file>
+    </qresource>
+</RCC>
