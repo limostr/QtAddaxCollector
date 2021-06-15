@@ -11,9 +11,11 @@
         <file>images/livraison.png</file>
         <file>images/carton.png</file>
         <file>images/article.png</file>
+        <file>font/js/all.min.js</file>
+        <file>font/webfonts/fa-brands-400.ttf</file>
+        <file>font/webfonts/fa-regular-400.ttf</file>
+        <file>font/webfonts/fa-solid-900.ttf</file>
+        <file>Icons.qml</file>
     </qresource>
-    <qresource prefix="/font">
-        <file>font/fontawesome-webfont.ttf</file>
-        <file>font/ionicons.ttf</file>
-    </qresource>
+    <qresource prefix="/font"/>
 </RCC>
