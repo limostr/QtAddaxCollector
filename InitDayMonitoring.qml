@@ -2,7 +2,7 @@ import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-//import "font/js/all.js" as FontAwesome
+ import "qrc:/font/js/all.js" as FontAwesome
 
 ApplicationWindow  {
     id: root
@@ -14,13 +14,13 @@ ApplicationWindow  {
     Item {
         id : customFonts
         readonly property FontLoader fontAwesomeRegular: FontLoader {
-            source: "../AddaxCollectorMonitoring/font/webfonts/fontawesome-free-5.7.2-web/fa-regular-400.ttf"
+            source: "qrc:/font/webfonts/fa-regular-400.ttf"
         }
         readonly property FontLoader fontAwesomeSolid: FontLoader {
-            source: "../AddaxCollectorMonitoring/font/webfonts/fontawesome-free-5.7.2-web/fa-solid-900.ttf"
+            source: "qrc:/font/webfonts/fa-solid-900.ttf"
         }
         readonly property FontLoader fontAwesomeBrands: FontLoader {
-            source: "../AddaxCollectorMonitoring/font/webfonts/fontawesome-free-5.7.2-web/fa-brands-400.ttf"
+            source: "qrc:/font/webfonts/fa-brands-400.ttf"
         }
 
         readonly property var names : {

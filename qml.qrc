@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/">
+    <qresource prefix="/font/js">
         <file>SuiviCaisse.qml</file>
         <file>InitDayMonitoring.qml</file>
         <file>ProductInFactory.qml</file>
@@ -16,6 +16,6 @@
         <file>font/webfonts/fa-regular-400.ttf</file>
         <file>font/webfonts/fa-solid-900.ttf</file>
         <file>Icons.qml</file>
+        <file>font/js/all.js</file>
     </qresource>
-    <qresource prefix="/font"/>
 </RCC>
